@@ -1,0 +1,44 @@
+.error404 {
+    text-align: center;
+    @include fonts500Color;
+
+    &__title {
+        font-weight: 700;
+        font-size: 96px;
+        height: 99px;
+        margin-top: 169px;
+
+        @media screen and (min-width: 768px) {
+            font-size: 288px;
+        }
+    }
+
+    &__subtitle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 52px;
+        gap: 5px;
+        font-size: 18px;
+        font-weight: 500 !important;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        @media screen and (min-width: 768px) {
+            font-size: 36px;
+            margin-top: 66px;
+        }
+    }
+
+    &__link {
+        font-size: 14px;
+        margin-top: 133px;
+        margin-bottom: 159px;
+        color: $primary-color !important;
+        text-decoration-color: $primary-color;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 182px;
+        }
+    }
+}
